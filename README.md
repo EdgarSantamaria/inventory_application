@@ -1,6 +1,7 @@
 # Inventory Management Application
 This project is an inventory management web application built using Next.js, Firebase Firestore, and Material-UI. This application allows users to search, add, update, and delete items.
 
+[Visit The Website](https://inventory-application-opal.vercel.app/)
 # Features
 - View a list of inventory items
 - Add new items to the inventory
