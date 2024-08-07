@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client';
 import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
 import { Box, Typography, Modal, Stack, TextField, Button } from "@mui/material";
