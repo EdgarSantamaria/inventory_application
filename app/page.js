@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
 import { Box, Typography, Modal, Stack, TextField, Button } from "@mui/material";
@@ -59,9 +59,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
       updateInventory();
-    }
   }, []);
 
   const handleOpen = () => {
